@@ -1,0 +1,16 @@
+git clone https://github.com/GoogleCloudPlatform/python-docs-samples.git
+
+cd python-docs-samples/appengine/standard_python3/hello_world
+
+_____________
+
+open new cloud shell +
+
+cd python-docs-samples/appengine/standard_python3/hello_world
+nano main.py
+
+change = Hello, Cruel World! 
+
+__________
+
+gcloud app deploy
